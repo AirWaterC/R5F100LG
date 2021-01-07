@@ -1,0 +1,37 @@
+-MAKEUD=E:\HRJ_2020\15_E2_Project\Times_Led\HardwareDebug/Times_Led_l.ud
+-device="C:/Users/huangrenjun1/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR5F100LG.DVF"
+-list="Times_Led.map"
+-nooptimize
+-entry=_start
+-auto_section_layout
+-security_id=00000000000000000000
+-debug_monitor=1FE00-1FFFF
+-user_opt_byte=FF7BE8
+-ocdbg=84
+-input=".\generate\cstart.obj"
+-input=".\generate\stkinit.obj"
+-input=".\src/app\buzzer.obj"
+-input=".\src/app\leds.obj"
+-input=".\src/app\times.obj"
+-input=".\src\r_cg_cgc.obj"
+-input=".\src\r_cg_cgc_user.obj"
+-input=".\src\r_cg_pclbuz.obj"
+-input=".\src\r_cg_pclbuz_user.obj"
+-input=".\src\r_cg_port.obj"
+-input=".\src\r_cg_port_user.obj"
+-input=".\src\r_cg_timer.obj"
+-input=".\src\r_cg_timer_user.obj"
+-input=".\src\r_cg_wdt.obj"
+-input=".\src\r_cg_wdt_user.obj"
+-input=".\src\r_main.obj"
+-input=".\src\r_systeminit.obj"
+-library="C:\Program Files (x86)\Renesas\RL78\1_9_0\lib\rl78cm4s.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_9_0\lib\rl78cm4r.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_9_0\lib\malloc_n.lib"
+-output="Times_Led.abs"
+-debug
+-nocompress
+-memory=high
+-rom=.data=.dataR,.sdata=.sdataR
+-nomessage
+-nologo

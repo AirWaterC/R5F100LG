@@ -1,0 +1,11 @@
+-cpu=S2
+-c
+-dev="C:/Users/huangrenjun1/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR5F100LG.DVF"
+-MAKEUD="E:\HRJ_2020\15_E2_Project\Times_Led\HardwareDebug\src\app"
+-I "E:\HRJ_2020\15_E2_Project\Times_Led\src"
+-I "E:\HRJ_2020\15_E2_Project\Times_Led\src\app"
+-I "C:\Program Files (x86)\Renesas\RL78\1_9_0\inc"
+-I "E:\HRJ_2020\15_E2_Project\Times_Led\generate" 
+-character_set=utf8
+-lang=c
+-g
